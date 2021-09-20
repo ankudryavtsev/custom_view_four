@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FinanceProgressView">
+        <attr name="android:progress" format="integer" />
+        <attr name="backgroundArcColor" format="color" />
+        <attr name="foregroundArcColor" format="color" />
+        <attr name="max" format="integer" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <attr name="financeProgressDefaultAttr" format="reference" />
+</resources>
