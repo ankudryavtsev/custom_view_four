@@ -10,17 +10,20 @@
         android:id="@+id/finance_progress_view"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:padding="32dp"
         android:progress="75"
+        app:textSize="32sp"
         app:backgroundArcColor="@android:color/darker_gray"
         app:foregroundArcColor="?attr/colorPrimary"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeWidth="32dp" />
+        app:strokeWidth="16dp" />
 
     <SeekBar
         android:id="@+id/seekbar"
         android:layout_width="0dp"
         android:progress="75"
+        android:layout_marginTop="16dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
